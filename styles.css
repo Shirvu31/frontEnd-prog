@@ -87,12 +87,23 @@ p {
   text-decoration: underline;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 360px) {
   h1 {
     font-size: 45px;
   }
 
   h2 {
-    font-size: 35px;
+    font-size: 30px;
+  }
+
+  h3 {
+    font-size: 15px;
+  }
+  p {
+    font-size: 10px;
+  }
+
+  a {
+    font-size: 8px;
   }
 }
