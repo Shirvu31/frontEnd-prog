@@ -102,11 +102,16 @@ p {
   }
   p {
     font-size: 10px;
+    text-align: center;
   }
 
-  .project-link {
+  .projectLink {
     display: block;
     text-align: center;
     margin: 0 20px;
+  }
+
+  .parText {
+    text-align: center;
   }
 }
