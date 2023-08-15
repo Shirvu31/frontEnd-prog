@@ -104,14 +104,9 @@ p {
     font-size: 10px;
     text-align: center;
   }
-
-  .projectLink {
-    display: block;
-    text-align: center;
-    margin: 0 20px;
-  }
-
-  .parText {
-    text-align: center;
-  }
+}
+.projectLink {
+  display: block;
+  text-align: center;
+  margin: 0 20px;
 }
