@@ -88,6 +88,9 @@ p {
 }
 
 @media (max-width: 350px) {
+  body {
+    text-align: center;
+  }
   h1 {
     font-size: 40px;
   }
@@ -101,7 +104,6 @@ p {
   }
   p {
     font-size: 10px;
-    text-align: center;
   }
 
   a {
