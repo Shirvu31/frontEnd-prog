@@ -87,16 +87,14 @@ p {
   text-decoration: underline;
 }
 
-@media (max-width: 350px) {
-  body {
-    text-align: center;
-  }
+@media (max-width: 576px) {
   h1 {
     font-size: 40px;
   }
 
   h2 {
     font-size: 25px;
+    text-align: center;
   }
 
   h3 {
@@ -106,7 +104,9 @@ p {
     font-size: 10px;
   }
 
-  a {
-    font-size: 8px;
+  .project-link {
+    display: block;
+    text-align: center;
+    margin: 0 20px;
   }
 }
